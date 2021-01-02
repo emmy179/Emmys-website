@@ -1,0 +1,118 @@
+.navbar ul li a{
+        overflow: hidden;
+        padding-top: 4px;
+        text-align: center;
+        justify-self: start;
+        padding-right: cover;
+        background-color: transparent;
+        color: rgb(126, 126, 219);
+        padding-bottom: 8px;
+        padding-left: 30px;
+        padding-right: 40px;
+        list-style-type: none;
+        display: inline;
+        float: left;
+        margin: 0px;
+        padding: 8px;
+        display: block;
+        background-color: transparent;
+      }
+    li{
+        display: inline;
+    }
+li a:hover:not(.active) {
+        background-color: rgb(8, 208, 243);
+      }
+.active {
+        background-color: #4CAF50;
+      }
+body{
+    background-color:rgb(73, 145, 179);
+}
+li{
+    list-style-type: none;
+}
+header {
+    background-color: cornsilk;
+    font-size: 40;
+    padding: 50px;
+    text-align: center;
+    background-image: url('78809294.jpg');
+    font-family: cursive;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration-line: none;
+    image-orientation: inherit;
+    padding-bottom: 35px;
+}
+.img-logo{
+    align-self: auto;
+}
+
+ /* section{
+    text-align: right;
+    orientation: top; 
+} */
+/*----footer----*/
+.Social1{
+    padding: 30px;
+    text-align: left;
+    text-align-last: left;
+    text-orientation: initial;
+    color: white;
+    position: bottom;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    background-color: transparent;
+}
+.contacts1{
+padding: 30px;
+text-align: right;
+text-orientation: sideways;
+text-align-last: right;
+color: white;
+justify-content: baseline;
+}
+.mainfooter1{
+    background-color: black;
+    padding: 30px;
+   padding-bottom: 0px;
+}
+.copyrightSection{
+    background-color: gray;
+    color: whitesmoke;
+    padding-top: 0px;
+    padding-bottom: 1px;
+    padding-right: cover;
+    text-align: center;
+}
+ .navbar input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 4px;
+    margin-left: 100%;
+    padding-bottom: 0px;
+    border: none;
+    font-size: 17px;
+}
+ @media screen and (max-width: 600px) {
+    .navbar input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 1px;
+    }
+ }
+    .navbar input[type=text] {
+        border: 1px solid #ccc;  
+      }
+  .section1{
+      background-image: url('78809294.jpg');
+      font-size: larger;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+}
