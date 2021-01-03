@@ -130,3 +130,7 @@ header {
         border: 1px solid blue;
         width: 30%;
     }
+    .myparagraphs{
+        justify-content: space-between;
+        display: flex;
+    }
