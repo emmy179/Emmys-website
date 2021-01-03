@@ -76,9 +76,12 @@ color: white;
 justify-content: baseline;
 }
 .mainfooter1{
-    background-color: black;
-    padding: 30px;
-   padding-bottom: 0px;
+    background-color: rgb(13, 206, 212);
+    padding-bottom: 0px;
+    padding-top: 0px;
+    position: -webkit-sticky;
+    left: 0;
+    bottom: 0;
 }
 .copyrightSection{
     background-color: gray;
