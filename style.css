@@ -56,7 +56,6 @@ header {
 } */
 /*----footer----*/
 .Social1{
-    padding: 30px;
     text-align: left;
     text-align-last: left;
     text-orientation: initial;
@@ -65,23 +64,25 @@ header {
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 10px;
-    background-color: transparent;
-}
+    border: 1px solid blue;
+    align-items: center;
+    justify-items: center;
+} 
 .contacts1{
-padding: 30px;
-text-align: right;
-text-orientation: sideways;
-text-align-last: right;
-color: white;
-justify-content: baseline;
-}
+    padding: 0px;
+    text-align: right;
+    text-orientation: sideways;
+     text-align-last: right;
+    color: white;
+    text-align-last: left;
+    border: 1px solid blue;
+    }
 .mainfooter1{
     background-color: rgb(13, 206, 212);
     padding-bottom: 0px;
     padding-top: 0px;
-    position: -webkit-sticky;
-    left: 0;
-    bottom: 0;
+    justify-content: space-between;
+    display: flex;
 }
 .copyrightSection{
     background-color: gray;
@@ -119,3 +120,13 @@ justify-content: baseline;
       font-family: Georgia, 'Times New Roman', Times, serif;
       text-align: center;
 }
+.paragraph2{ 
+    color: rgb(20, 19, 19);
+    text-align-last: right; 
+    border: 1px solid blue;
+    justify-content: safe;
+    }
+    .paragraph1{
+        border: 1px solid blue;
+        width: 30%;
+    }
